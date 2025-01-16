@@ -51,7 +51,7 @@ const requestLocationPermission = async () => {
 };
 
 const EmergencySMS = () => {
-  const [contacts] = useState(['9495594252']); // Replace with real emergency contact numbers
+  const [contacts] = useState(['XXXXXXXXXXX']); // Replace with real emergency contact numbers
   const [location, setLocation] = useState(null);
 
   const getCurrentLocation = () => {
